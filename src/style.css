@@ -1,0 +1,91 @@
+/* Confirmationscreen */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap");
+
+p {
+    margin: 0;
+}
+
+.clip-contents {
+    overflow: hidden;
+}
+
+.container {
+    /*position: relative;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    /*background-color: rgba(255, 255, 255, 1);*/
+}
+.container > div{
+    text-align: center;
+    align-self: center;
+}
+.el-475 {
+    position: absolute;
+    top: 170px;
+    left: 360px;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1);
+    width: 852px;
+    height: 58px;
+    word-wrap: break-word;
+}
+
+.txt-097 {
+    position: absolute;
+    top: 450px;
+    left: 772px;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1);
+    width: 517px;
+    height: 58px;
+    word-wrap: break-word;
+}
+
+.group-13 {
+    position: absolute;
+    top: 550px;
+    left: 1025px;
+    padding: 7px 76px 6px 82px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: rgba(255, 102, 0, 1);
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.25);
+    width: 230px;
+    height: 61px;
+    color: #FFFFFF;
+}
+.group-13:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+.txt-543 {
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    word-wrap: break-word;
+}
+
+.odclogo-1 {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 228px;
+    height: 263px;
+}
+
+.confirmation-1 {
+    align-self: center;
+    position: absolute;
+    top: 270px;
+    left: 670px;
+    width: 148px;
+    height: 139px;
+}

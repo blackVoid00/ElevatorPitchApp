@@ -1,0 +1,86 @@
+.list-container{
+  margin-top: 12%;
+  width: 100%;
+  color: #000000;
+
+}
+.list-container h1 {
+  font-family: 'HelvNeue75_W1G';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+
+}
+.user-card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+  margin-left: 17%;
+  width: 762px;
+  height: 129px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: arial;
+  border-radius: 25px;
+}
+.user-card .user-card-left{
+  width: 382px;
+}
+
+.user-card .img-photo-de-profil {
+  width: 109px;
+  height: 129px;
+  float: left;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.user-card h1{
+  font-family: 'HelvNeue75_W1G';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 39px;
+
+
+  color: #FFFFFF;
+}
+.user-card p{
+  margin-bottom: 11%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 36px;
+  color: #FFFFFF;
+
+}
+.user-card-right{
+  width: 191px;
+  height: 150px;
+}
+
+
+.user-card-right .btn-d:hover{
+  background-color: #ff6600;
+  color: #FFFFFF;
+}
+
+.icon-download:hover{
+  color: #FFFFFF;
+}
+.btn-d{
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  padding: 19px;
+  margin-top: 19%;
+  margin-right: 7%;
+  font-weight: 700;
+}
+
+

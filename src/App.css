@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'HelvNeue35_W1G';
+  src: url('./fonts/HelvNeue35_W1G.ttf')
+}
+@font-face {
+  font-family: 'HelvNeue75_W1G';
+  src: url('./fonts/HelvNeue75_W1G.ttf')
+}
+@font-face {
+  font-family: 'HelvNeue65_W1G';
+  src: url('./fonts/HelvNeue65_W1G.ttf')
+}
+@font-face {
+  font-family: 'HelvNeue55_W1G';
+  src: url('./fonts/HelvNeue55_W1G.ttf')
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.odc-logo{
+  width: 135px;
+  height: 133px;
+  margin-right: 77%;
+  margin-bottom: -14%;
+  margin-left: 17%;
+}
+
+.welcome-txt{
+  font-family: 'HelvNeue75_W1G';;
+  font-size: 1.8rem;
+  color: #FF6600;
+}
+.welcome-txt-2{
+  font-family: 'HelvNeue35_W1G';
+  margin-right: 80px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1.5rem ;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.welcome-image{
+  margin-top: -89px;
+  width: 422px;
+  height: 276px;
+}
+
+.welcome-container{
+
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-container{
+  width: 100%;
+  display: flex;
+
+}
+.btn-welcome{
+  font-family: 'HelvNeue35_W1G';
+  margin-top: 22px;
+  background: #FF6600;
+  border-radius: 20px;
+  width: 211px;
+  height: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  text-decoration: none;
+
+}
+.btn-welcome:hover{
+  background: #FFFFFF;
+  color: #FF6600;
+  border: 1px solid #FF6600;
+}
+
+.filter-container button{
+  margin-right: 1rem;
+  margin-left: 4rem;
+  margin-top: 5rem;
+  min-width: 4rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background:white;
+  color: #FF6600;
+  border-radius : 1rem;
+  border: 2px solid  #FF6600;
+  font-weight: bold;
+  cursor: pointer;
+}
+.filter-container button:hover{
+  background: #FF6600;
+  color: #FFFFFF;
+}
+
+@media all and (min-width: 1497px){
+  .filter-container button{
+    margin-top: 12rem;
+  }
+}
+
+
+@media all and (max-width:1522px){
+  .btn-welcome{
+    margin-left: 25%;
+  }
+}
+
+@media all and (max-width:1190px){
+  .welcome-image {
+    margin-top: 0px;
+    width: 350px;
+    height: 250px;
+  }
+  .welcome-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
